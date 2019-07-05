@@ -1,0 +1,646 @@
+/*IMPORT FONTS FROM GOOGLE*/
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+/*Media Queries for display optimization*/
+@media (min-width: 320px) and (max-width: 1024px) {
+    
+    .nav-item button{
+        width:100%;
+        margin:5px;
+    }  
+  }
+  
+@media (min-width: 1281px) {
+    .banner h3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color:white;
+        font-weight: bolder;
+        transform: translate(-50%, -371%);
+    }
+ 
+    .banner h5{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color:white;
+        font-weight: bolder;
+        transform: translate(-50%, -170%);
+    }
+  
+    .banner input{
+        width: 32%;
+        position: absolute;
+        top:50%;
+        left: 32%;
+        height: 12%;
+    }
+   
+    .banner .fa{
+        position: absolute;
+        top: 53.5%;
+        left: 61%;
+        color: rgb(23, 70, 84);
+    }
+    
+    .freelancers .fa {
+        position: absolute;
+        top: 16.5%;
+        left: 27.5px;
+    }
+    .freelancers{
+        background-color: white;
+    }
+    .amount{
+        color:rgb(94, 195, 41);
+        position: absolute;
+        left:80%;
+        font-weight: bolder;
+        top:6%;
+    }
+    .amount-details{
+        position: absolute;
+        left: 69%;
+        top: 12%;
+    }
+    .card img{
+        width:45%;
+        padding:10px;
+    }
+    .freelancers input{
+        padding-left:5%;
+    }
+
+    
+  }
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .banner input{
+        width: 32%;
+        position: absolute;
+        top: 80%;
+        left: 32%;
+        height: 12%;
+    }
+   
+    .banner .fa{
+        position: absolute;
+        top: 83.2%;
+        left: 61%;
+        color: rgb(23, 70, 84);
+    }
+    .freelancers .fa {
+        position: absolute;
+        top: 9.5%;
+        left: 5%;
+    }
+    .freelancers input{
+        width:100%;
+    }
+    .main-body{
+        background-color: white;
+    }
+
+    
+  }
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .banner h3{
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        width:100%;
+        font-size:20px;
+        color:white;
+        transform: translate(-50%, -50%);
+    }
+    .banner h5{
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        width:100%;
+        color:white;
+        font-size: 10px;
+        transform: translate(-50%, -50%);
+    }
+    .banner input{
+        width: 32%;
+        position: absolute;
+        top: 70%;
+        left: 32%;
+        height: 12%;
+    }
+
+    .banner .fa{
+        position: absolute;
+        top: 72.5%;
+        left: 61%;
+        color: rgb(23, 70, 84)
+    }
+    .freelancers{
+        background-color: white;
+    }
+    .amount {
+        font-weight: bolder;
+        color:rgb(94, 195, 41);
+    }
+    .freelancers .fa {
+        position: absolute;
+        top: 8.2%;
+        left: 7%;
+    }
+
+    .freelancers input{
+        width:100%;
+    }
+  }
+@media (min-width: 320px) and (max-width: 480px) {
+    .banner h3{
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        color:white;
+        font-size: 15px;
+        transform: translate(-50%, -100%);
+        width:100%;
+    }
+    .main-body {
+        background-color: rgb(246, 246, 246);
+        width:100%;
+        font-family: "Raleway";
+      }
+    .banner h5{
+        position: absolute;
+        top: 68%;
+        left: 50%;
+        color:white;
+        font-size: 9px;
+        transform: translate(-50%, -225%);
+        width:100%
+    }
+
+    .banner input {
+        width: 95%;
+        position: absolute;
+        top: 59%;
+        left: 1%;
+        margin:2%;
+        height: 12%;
+        height: 37px;
+    }
+
+    .banner{
+        padding-bottom:20px;
+    }
+    .banner .fa {
+        position: absolute;
+        top: 71.5%;
+        left: 86%;
+        color: rgb(23, 70, 84);
+    }
+    .freelancers{
+        margin:0px;
+        margin-top:5px;
+        background-color:white;
+    }
+  
+    .freelancers .fa {
+        position: absolute;
+        top: 20.2%;
+        left: 9%;
+    }
+    .freelancers input{
+       width:100%;
+       padding-left:10%;
+    }
+    .amount {
+        color: rgb(94, 195, 41);
+        font-weight: bolder;
+    }
+  
+    .card img{
+        width:100%;
+        padding:0px;
+    }
+    .card{
+        margin-bottom:5px;
+        margin:0px;
+        padding:0px;
+    }
+  }
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    .banner h3{
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        width:100%;
+        font-size: 25px;
+        color:white;
+        transform: translate(-50%, -50%);
+    }
+    .banner h5{
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        width:100%;
+        color:white;
+        font-size: 20px;
+        transform: translate(-50%, -50%);
+    }
+    .get-started{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+    }
+    .banner input{
+        width: 45%;
+        position: absolute;
+        top: 70%;
+        left: 26%;
+        height: 15%;
+    }
+    .banner .fa{
+        position: absolute;
+        top: 73.5%;
+        left: 67%;
+        color: rgb(23, 70, 84);
+    }
+    .freelancers{
+        background-color:white;
+    }
+    .freelancers .fa {
+        position: absolute;
+        top: 21.5%;
+        left: 4%;
+    }
+    .freelancers input{
+        width:100%;
+        padding-left:5%;
+    }
+    
+  }
+@media (min-width: 481px) and (max-width: 767px) {
+    .banner h3{
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        width:100%;
+        color:white;
+        font-size: 15px;
+        transform: translate(-50%, -50%);
+    }
+    .banner h5{
+        position: absolute;
+        top: 48%;
+        width:100%;
+        left: 50%;
+        color:white;
+        font-size: 10px;
+        transform: translate(-50%, -50%);
+    }
+    .banner input{
+        width: 100%;
+        position: absolute;
+        top: 62%;
+        left: 32%;
+        height: 15%;
+    }
+    .banner .fa{
+        position: absolute;
+        top: 63.5%;
+        left: 60%;
+        color: rgb(23, 70, 84);
+    }
+    .freelancers .fa{
+        position: absolute;
+        top: 20%;
+        left: 6%;
+    }
+
+  
+    .freelancers input{
+       width:100%;
+    }
+    
+  }
+@media (max-width:991px){
+    .setSectionServices{
+        padding-left:3%;
+    }
+    footer img {
+        width: 40px;
+        height: 36px;
+    }
+    .setPeopleShortStory{
+        width:100%;
+        text-align: center;
+    }
+    .section .setMPHSC {
+        width: 100% !important;
+        text-align: -webkit-center;
+        margin-left:0px !important;
+    }
+}
+.main-body{
+    background-color: rgb(225, 228, 228);
+    
+}
+.main-body h2{
+font-weight:lighter;
+margin-bottom:2%;
+}
+/*STYLE FOR EACH CARD CLASS*/
+
+.freelancers a{
+    color:rgb(94, 195, 41);
+}
+.freelancers{
+    margin-bottom:10px;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(94, 195, 41);
+    cursor: pointer;
+  }
+
+/*HOW IT WORKS SECTION*/
+.how-it-works{
+      background-color:white;
+  }
+
+.how-it-works h3{
+text-align:center;
+}
+.title{
+    font-weight: bold;
+    text-align: center;
+}
+.describe{
+    text-align: center;
+}
+.how-it-works img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*FILTER SLIDER*/
+.filter h6{
+      color: rgb(94, 195, 41);
+  }
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(94, 195, 41);
+    cursor: pointer;
+  }
+.filter{
+    background-color: white;
+    margin-right: 15px;
+    padding: 25px;
+    height: 414px;
+ }
+
+
+#list-menu{
+    list-style-type: none;
+    padding-bottom:20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#list-menu li{
+    display: inline;
+}
+#list-menu a{
+    color:black;
+    font-family: "Raleway";
+    font-weight:bolder;
+    text-align: center;
+    margin:2%;
+}
+
+.card li{
+    list-style-type:none;
+    display:inline-block;
+    background-color:lightgray;
+    margin:1px;
+    border-radius: 8px;
+    padding:2px;
+}
+
+.card ul{
+    position: relative;
+    margin-top: -35px;
+    margin-right: 23px;
+
+}
+.card{
+    width:100% !important;
+}
+
+.row{
+    margin: 10px;
+}
+.details{
+color:lightslategray;
+float:left;
+clear: both;
+margin-left:0px;
+}
+
+.details .fa-map-marker {
+    position: relative;
+    top: 66%;
+    left: 2%;
+}
+
+/*NAV AND SUBNAV STYLE*/
+.main-bar .nav-item{
+    font-size:12px;
+} 
+#subNavBar ul li{
+    margin-right:20px;
+}
+#subNavBar ul li a{
+    color: black;
+}
+#subNavBar ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.nav-item button{
+    margin:5px;
+} 
+
+.nav-item a{
+    margin:5px;
+} 
+
+/*BANNER STYLE*/
+.language{
+    width:24px;
+    margin-top:13px;
+}
+
+.brand-logo{
+    max-width: 50px !important;
+}
+#header-buttons a{
+text-decoration: none;
+margin:5px;
+color:black;
+}
+#sub-menu{
+margin-bottom:-15px;
+}
+#sub-menu{
+    background-color: rgb(246, 246, 246);
+}
+
+.banner{
+    position: relative;
+    text-align: center;
+}
+.banner{
+    background-color:rgb(23, 70, 84);
+}
+.banner img{ 
+    width:100%;
+    height:100%;
+    opacity: 0.2;
+}
+
+
+/*BUTTONS ON NAVBAR STYLE*/
+#register-button{
+border-width: 2px;
+border-color: rgb(94, 195, 41);
+border-style: solid;
+border-radius: 10px;
+background-color: white;
+color: rgb(94, 195, 41);
+padding:8px;
+padding-left:20px;
+padding-right:20px;
+}
+#login-button{
+border-width: 2px;
+border-color: rgb(94, 195, 41);
+border-style: solid;
+border-radius: 10px;
+background-color: rgb(94, 195, 41);;
+color: white;
+padding:8px;
+padding-left:20px;
+padding-right:20px;
+}
+#home-button {
+color:white;
+border-radius: 21px;
+background-color: rgb(94, 195, 41);
+padding:10px;
+border-width: 0px;
+padding-left:20px;
+padding-right:20px;
+}
+#co-work-space{
+    border-radius: 21px;
+    background-color: rgb(23, 70, 84);
+    color:white;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-width: 0px;
+    font-family: "Raleway";
+}
+
+
+/*FOOTER STYLE STARTS HERE*/
+.footer-main{
+	background-color:#2D404F;
+	padding: 15px 0px 0px 0px;
+}
+.footer-main .link h3{
+	color: #FFF;
+	letter-spacing: 0px;
+	font-weight: bold;
+	text-transform: none;
+}
+.footer-main .link a{
+	color: #FFF;
+}
+.footer-main .link a i,
+.footer-main .link a:hover{
+	color: #5FC233;
+}
+.footer-main .link li:before {
+  	content: "\f105";
+  	font-family: FontAwesome;
+  	display: inline-block;
+  	margin-left: -15px;
+  	width: 15px;
+	color: #5FC233;
+}
+.footer-main .link .mob-app img{
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+footer .social-icon > a i{
+	font-size: 18px;
+	color: #FFF !important;
+}
+footer .social-icon > a i:hover{
+	color: #5FC233 !important;
+}
+.footer-main .footer-sub-first{
+	margin-top: 20px;
+	color: #FFF;
+	font-size: 12px;
+}
+.footer-sub-first .footer-list-custom h6{
+	color: #fff;
+	letter-spacing: 0px;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0px;
+}
+.footer-main .footer-sub-first{
+	border-top: 1px solid #344756;
+	padding: 15px 0px;
+}
+.footer-main .footer-sub-first p{
+	color: #FFF;
+}
+.footer-main .footer-sub-first h3{
+	color: #FFF;
+	letter-spacing: 0px;
+	font-weight: bold;
+	margin: 0px;
+	text-transform: capitalize;
+}
+.social-icon a{
+    margin:5px;
+}
+.footer-main li{
+  list-style-type: none;
+}
